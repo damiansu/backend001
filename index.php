@@ -34,5 +34,5 @@ try {
         "mensaje" => $e->getMessage()
     ]);
 }
-
+echo "Nueva versión funcionando";
 ?>
