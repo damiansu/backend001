@@ -27,6 +27,8 @@ try {
         "data" => $usuarios
     ]);
 
+    echo "Nueva versión funcionando";
+
 } catch (PDOException $e) {
 
     echo json_encode([
@@ -34,5 +36,5 @@ try {
         "mensaje" => $e->getMessage()
     ]);
 }
-echo "Nueva versión funcionando";
+
 ?>
