@@ -27,7 +27,7 @@ try {
         "data" => $usuarios
     ]);
 
-    echo "Nueva versión funcionando";
+    echo "Hola tad@s;
 
 } catch (PDOException $e) {
 
@@ -38,5 +38,3 @@ try {
 }
 
 ?>
-
-<h1> Holaaaaa</h1>
