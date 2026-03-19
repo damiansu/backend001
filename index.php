@@ -27,7 +27,7 @@ try {
         "data" => $usuarios
     ]);
 
-    echo "Hola tad@s;
+    echo "Hola tad@s";
 
 } catch (PDOException $e) {
 
